@@ -1,0 +1,4 @@
+image: termux/package-builder:latest
+
+build:
+  script: ./build-package.sh -a arm rust
