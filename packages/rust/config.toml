@@ -6,13 +6,14 @@ link-shared = true
 
 [build]
 host = ["@triple@"]
-target = ["@triple@", "wasm32-unknown-unknown"]
+target = ["@triple@"]
 rustc = "@RUSTC@"
 cargo = "@CARGO@"
 
 python = "python2.7"
 extended = true
 sanitizers = false
+profiler = true
 
 #tools = ["cargo", "analysis", "clippy-driver" ]
 
